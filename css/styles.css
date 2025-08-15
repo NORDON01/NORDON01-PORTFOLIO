@@ -210,6 +210,40 @@ Navbar
   justify-self: end;
 }
 
+@media screen and (min-width: 48rem) {
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-self: end;
+    column-gap: 2rem;
+    padding-right: 2rem;
+  }
+
+  .nav-center {
+    background: var(--clr-primary-9);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+  }
+
+  .nav-links a {
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    color: var(--clr-primary-1);
+    font-weight: bold;
+    transition: var(--transition);
+  }
+
+  .nav-links a:hover {
+    color: var(--clr-primary-5);
+  }
+}
+
 /*
 =============== 
 Sidebar
