@@ -6,3 +6,24 @@ img: (not .nav-logo){
   width:100%;
   display:block;
 }
+
+**************
+ALIGN, JUSTIFY
+**************
+
+              FLEXBOX             GRID
+
+HORIZONTAL    justify content     justify items
+(justify)                                 content
+                                          self
+
+VERTICAL      align items         align items
+(align)                                 content
+                                        self
+
+
+items: to move the content of all the cells (child elements)
+       within the cells;
+
+content: to move  all the cells within the parent element;
+self: to move the content of a given cell within this cell;
