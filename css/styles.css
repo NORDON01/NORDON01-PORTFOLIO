@@ -250,6 +250,83 @@ Sidebar
 ===============
 */
 
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--clr-grey-10);
+  display: grid;
+  grid-template-columns: 1fr;
+  /* align-items: center;
+  justify-items: center;  OU */
+  place-items: center;
+  transition: var(--transition);
+  /* Pour montrer / cacher la sidebar : */
+  /* transform: translateX(-100%); */
+}
+
+.sidebar-links {
+  text-align: center;
+}
+
+.sidebar-links a {
+  text-transform: capitalize;
+  color: var(--clr-grey-5);
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  transition: var(--transition);
+}
+
+.sidebar-links a:hover {
+  color: var(--clr-primary-5);
+}
+
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin-top: 3rem;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: var(--clr-grey-1);
+  transition: var(--transition);
+}
+
+.social-icon:hover {
+  color: var(--clr-primary-5);
+}
+/* a:hover {
+  color: var(--clr-primary-5);
+} */
+
+.close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  color: #bb2525;
+  background: transparent;
+  border-color: transparent;
+}
+
+.close-btn:hover {
+  color: #e66be6;
+}
+
+/*=========== 
+Hero
+============
+
+/*
+=============== 
+Hero
+============
 /*
 =============== 
 Hero

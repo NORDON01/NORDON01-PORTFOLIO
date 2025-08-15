@@ -27,3 +27,12 @@ items: to move the content of all the cells (child elements)
 
 content: to move  all the cells within the parent element;
 self: to move the content of a given cell within this cell;
+
+****************************
+CENTRER UN GROUPE D'ELEMENTS
+****************************
+display: grid;
+  grid-template-columns: 1fr;
+  /* align-items: center;
+  justify-items: center;  OU */
+  place-items: center;
