@@ -244,6 +244,16 @@ Navbar
   }
 }
 
+/* Navbar fixed */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
 /*
 =============== 
 Sidebar
@@ -325,17 +335,13 @@ Sidebar
 
 /*=========== 
 Hero
-============
+===========*/
 
-/*
-=============== 
-Hero
-============
-/*
-=============== 
-Hero
-===============
-*/
+.hero {
+  background: red;
+  min-height: 130vh;
+}
+
 /* underline added to globals */
 
 /*
