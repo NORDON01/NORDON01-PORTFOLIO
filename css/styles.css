@@ -264,7 +264,11 @@ Sidebar
   place-items: center;
   transition: var(--transition);
   /* Pour montrer / cacher la sidebar : */
-  /* transform: translateX(-100%); */
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 .sidebar-links {
