@@ -159,6 +159,14 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: var(--clr-primary-5);
+}
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -303,6 +311,7 @@ Sidebar
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
+  column-gap: 2.75rem;
   margin-top: 3rem;
 }
 
@@ -336,13 +345,38 @@ Sidebar
 /*=========== 
 Hero
 ===========*/
-
-.hero {
-  background: red;
-  min-height: 130vh;
+.hero .underline {
+  /* underline added to globals */
+  margin-bottom: 0.5rem;
+  margin-left: 0;
 }
 
-/* underline added to globals */
+.hero-img {
+  display: none;
+}
+
+.hero {
+  background: var(--clr-primary-9);
+}
+
+.hero-center {
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  place-items: center;
+}
+
+.hero-info {
+  color: var(--clr-grey-5);
+}
+
+.hero-icons {
+  display: grid;
+  justify-items: left;
+}
+
+.hero-btn {
+  margin-top: 1.25rem;
+}
 
 /*
 =============== 
