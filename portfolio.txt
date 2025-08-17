@@ -36,3 +36,24 @@ display: grid;
   /* align-items: center;
   justify-items: center;  OU */
   place-items: center;
+
+******************************
+PSEUDO ELEMENT - PSEUDO CLASSE
+******************************
+  Un pseudo élément complète un élément (notation ::):
+
+HTML:
+<p class="box">Content in the box in my HTML page.</p>
+
+CSS:
+.box::before {
+  content: "This should show before the other content. ";
+  background-color: yellow;
+}
+
+RESULTAT:
+This should show before the other content.Content in the box in my HTML page.
+
+Une peudo classe complète une propriété d'un élément (notation :):
+
+Exemple : .p:hover{background:red};
