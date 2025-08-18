@@ -431,6 +431,11 @@ About
 }
 /* section title added to globals */
 
+@media screen and(min-width:62rem) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 /*
 =============== 
 Services
