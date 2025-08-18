@@ -173,7 +173,10 @@ p {
   }
 }
 /* added during recording */
-
+.section-title {
+  margin-bottom: 4rem;
+  text-align: center;
+}
 /*
 =============== 
 Navbar
@@ -389,13 +392,6 @@ Hero
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-photo {
-    max-width: 25rem;
-    max-height: 30rem;
-    object-fit: cover;
-    border-radius: var(--radius);
-  }
-
   .hero-img::before {
     content: "";
     position: absolute;
@@ -412,6 +408,27 @@ Hero
 About
 ===============
 */
+.hero-photo {
+  max-width: 25rem;
+  max-height: 30rem;
+  object-fit: cover;
+  border-radius: var(--radius);
+  margin-top: 2rem;
+}
+
+.about-title {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.about-center {
+  display: grid;
+  gap: 3rem 2rem;
+}
+
+.about-img {
+  justify-self: center;
+}
 /* section title added to globals */
 
 /*
