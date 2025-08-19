@@ -57,3 +57,19 @@ This should show before the other content.Content in the box in my HTML page.
 Une peudo classe complète une propriété d'un élément (notation :):
 
 Exemple : .p:hover{background:red};
+
+**************************
+CREER UNE VARIABLE GLOBALE
+**************************
+Aller dans le CSS et dans la classe ":root"
+
+:root{
+   taper ici: --nom:valeur, 
+   Exemple:
+
+   --bleu-ciel:#1e90ff
+
+}
+
+Cette variable est accessible grâce à
+la fonction var();
