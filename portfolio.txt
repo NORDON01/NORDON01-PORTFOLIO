@@ -73,3 +73,46 @@ Aller dans le CSS et dans la classe ":root"
 
 Cette variable est accessible grâce à
 la fonction var();
+
+******************************
+CENTRER DU TEXTE SUR UNE IMAGE
+******************************
+.project-info {
+  text-align: center;
+  color: var(--clr-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); !!!
+}
+
+*******************
+GRID TEMPLATE AREAS
+*******************
+@media screen and (min-width:73rem){
+.../..
+  .projects-center{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas:
+      "a b b"
+      "a c d";  //3 columns 2 rows
+  }
+
+  .project-1{
+    grid-area: a;
+  }
+
+  .project-2{
+    grid-area: b;
+  }
+
+  .project-3{
+    grid-area: c;
+  }
+
+  .project-4{
+    grid-area: d;
+  }
+
+}
