@@ -578,7 +578,7 @@ Connect
   margin: 5rem 0;
 }
 
-.video {
+.video-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -587,10 +587,24 @@ Connect
   object-fit: cover;
 }
 
-/*============= 
+.connect::after {
+  content: "bla bla..";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.5;
+}
+
+/*=============
 Skills
 =============*/
-
+.underline {
+  display: block;
+  margin: 0 auto;
+}
 /*============= 
 Timeline
 =============*/

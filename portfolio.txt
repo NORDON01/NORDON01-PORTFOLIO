@@ -116,3 +116,35 @@ GRID TEMPLATE AREAS
   }
 
 }
+
+******
+SHAPES
+******
+  Check the "Can I use" site to check support for the browser:
+    https://caniuse.com/
+    Enter: clip-path
+
+  Go to Shapes creator: https://bennettfeely.com/clippy/
+
+Exemple:
+
+  .connect{
+    -webkit-clip-path:polygon(
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%,
+      0% 50%
+    );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+
+************************
+EXTERNAL VIDEO RESOURCES
+************************
+https://www.pexels.com/videos/
+
+Popular video formats: mp4, webm, ogg.
+
+If necessary use a free video format converter to get an mp4 for example.
